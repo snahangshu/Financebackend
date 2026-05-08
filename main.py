@@ -14,6 +14,7 @@ app = FastAPI(title="Finance AI Advisor API")
 origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
+    "https://finance-frontend-indol-three.vercel.app",
 ]
 
 app.add_middleware(
